@@ -8,7 +8,7 @@ new repo
             "Sid": "IPAllow",
             "Effect": "Deny",
             "Principal": "*",
-            "Action": "s3:*",
+            "Action": "s3:readonly",
             "Resource": [
                 "arn:aws:s3:::DOC-EXAMPLE-BUCKET",
                 "arn:aws:s3:::DOC-EXAMPLE-BUCKET/*",
