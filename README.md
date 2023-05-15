@@ -11,6 +11,7 @@ new repo
             "Action": "s3:*",
             "Resource": [
                 "arn:aws:s3:::DOC-EXAMPLE-BUCKET",
+                "arn:aws:s3:::DOC-EXAMPLE-BUCKET/*",
                 "arn:aws:s3:::DOC-EXAMPLE-BUCKET/*"
             ],
             "Condition": {
