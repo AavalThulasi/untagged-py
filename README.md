@@ -9,6 +9,7 @@ new repo
             "Effect": "Deny",
             "Principal": "*",
             "Action": "s3:readonly",
+                      "S3:putObect"
             "Resource": [
                 "arn:aws:s3:::DOC-EXAMPLE-BUCKET",
                 "arn:aws:s3:::DOC-EXAMPLE-BUCKET/*",
