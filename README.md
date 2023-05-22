@@ -10,7 +10,7 @@ new repo
             "Principal": "*",
             "Action": "s3:readonly",
                       "S3:putObect",
-                      "s3:getObject"
+                      "s3:update"
             "Resource": [
                 "arn:aws:s3:::DOC-EXAMPLE-BUCKET",
                 "arn:aws:s3:::DOC-EXAMPLE-BUCKET/*",
